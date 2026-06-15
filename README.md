@@ -1,16 +1,66 @@
-# React + Vite
+# React Todo App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A clean, modern, and fully functional Todo List application built with **React + Vite**.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+-  **Add new tasks** with a clean input field
+-  **Edit tasks** (replaces the task and lets you update it)
+-  **Delete individual tasks**
+-  **Move tasks up** in the list
+-  **Move tasks down** in the list
+-  **Persistent storage** using `localStorage` (tasks remain after refresh)
+-  Beautiful dark-themed UI with smooth hover effects
+-  Fully responsive design
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **React** (v19)
+- **Vite** (for fast development & build)
+- **JavaScript (ES6+)**
+- **CSS3** (custom styling with modern design)
 
-## Expanding the ESLint configuration
+## Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Prerequisites
+- Node.js (v18 or higher)
+- npm
+
+### Installation
+
+1. Clone the repository:
+```bash
+git clone https://github.com/mdk4if/reactTodo.git
+```
+
+2. Navigate to the project folder:
+```bash
+cd reactTodo
+```
+
+3. Install dependencies:
+```bash
+npm install
+```
+
+4. Start the development server:
+```bash
+npm run dev
+```
+
+5. Open your browser and go to `http://localhost:5173`
+
+## Project Structure
+
+```
+reactTodo/
+├── src/
+│   ├── components/
+│   │   └── Todo.jsx          # Main Todo component
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── index.css             # All styling
+├── public/
+├── package.json
+└── vite.config.js
+```
