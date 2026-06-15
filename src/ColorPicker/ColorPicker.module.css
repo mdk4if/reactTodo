@@ -1,0 +1,56 @@
+.colorPickerBox {
+    background: white;
+    padding: 2rem;
+    border-radius: 16px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 400px;
+    margin: 50px auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.colorPickerBox h1 {
+    margin-bottom: 1.5rem;
+    color: #333;
+}
+
+.colorDisplay {
+    width: 250px;
+    height: 250px;
+    margin: 0 auto 1.5rem;
+
+    border: 3px solid #ddd;
+    border-radius: 12px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    transition: background-color 0.3s ease;
+}
+
+.colorDisplay p {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.colorPickerBox label {
+    display: block;
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+}
+
+.colorPickerBox input[type="color"] {
+    width: 80px;
+    height: 80px;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.colorPickerBox input[type="color"]::-webkit-color-swatch {
+    border-radius: 50%;
+    border: 3px solid #ddd;
+}

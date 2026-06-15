@@ -1,0 +1,241 @@
+ /* ! Todo.jsx */
+ * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #0f172a;
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+  color: #f8fafc;
+}
+
+.todoList {
+  width: 750px;
+  background-color: #1e293b;
+  padding: 2rem;
+  border-radius: 16px;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.4);
+}
+
+.todoList h1 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: #f8fafc;
+}
+
+.todoList > div {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.todoList input {
+  flex: 1;
+  padding: 12px;
+  border: 2px solid #334155;
+  border-radius: 8px;
+  background-color: #0f172a;
+  color: #f8fafc;
+  font-size: 1rem;
+  outline: none;
+}
+
+.todoList input:focus {
+  border-color: #6366f1;
+}
+
+.todoList input::placeholder {
+  color: #94a3b8;
+}
+
+.todoList button {
+  border: none;
+  border-radius: 8px;
+  padding: 10px 14px;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+  transition: all 0.2s ease;
+  min-width: 70px;
+  max-width: 80px;
+}
+
+.todoList button:hover {
+  transform: translateY(-2px);
+}
+
+.addBtn {
+  background-color: #22c55e;
+}
+
+.addBtn:hover {
+  background-color: #16a34a;
+}
+
+.editBtn {
+  background-color: #06b6d4;
+}
+
+.editBtn:hover {
+  background-color: #0891b2;
+}
+
+.delBtn {
+  background-color: #ef4444;
+}
+
+.delBtn:hover {
+  background-color: #dc2626;
+}
+
+.upBtn {
+  background-color: #3b82f6;
+}
+
+.upBtn:hover {
+  background-color: #2563eb;
+}
+
+.downBtn {
+  background-color: #f59e0b;
+}
+
+.downBtn:hover {
+  background-color: #d97706;
+}
+
+.todoList ol {
+  list-style-position: inside;
+}
+
+.todoList li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background-color: #334155;
+  padding: 14px;
+  margin-bottom: 12px;
+  border-radius: 10px;
+  border-left: 4px solid #6366f1;
+  flex-wrap: wrap;
+}
+
+.text {
+  flex: 1;
+  font-size: 1rem;
+  color: #f8fafc;
+  word-break: break-word;
+}
+
+/* ! Stopwatch.jsx */
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background: #0f172a;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.stopwatch {
+  width: 500px;
+  padding: 2rem;
+
+  background: #1e293b;
+  border-radius: 20px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+
+  box-shadow:
+    0 0 20px rgba(0, 0, 0, 0.5),
+    0 0 40px rgba(99, 102, 241, 0.15);
+}
+
+.display {
+  width: 100%;
+  padding: 1.5rem;
+
+  text-align: center;
+
+  font-size: 4rem;
+  font-weight: bold;
+  letter-spacing: 4px;
+
+  color: #38bdf8;
+  background: #0f172a;
+
+  border: 2px solid #334155;
+  border-radius: 12px;
+
+  text-shadow:
+    0 0 10px rgba(56, 189, 248, 0.8),
+    0 0 20px rgba(56, 189, 248, 0.4);
+}
+
+.controls {
+  display: flex;
+  gap: 1rem;
+}
+
+.controls button {
+  border: none;
+  border-radius: 10px;
+
+  padding: 12px 24px;
+
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+
+  cursor: pointer;
+
+  transition: all 0.2s ease;
+}
+
+.controls button:hover {
+  transform: translateY(-3px);
+}
+
+.controls button:active {
+  transform: scale(0.96);
+}
+
+.startBtn {
+  background: #22c55e;
+}
+
+.startBtn:hover {
+  background: #16a34a;
+}
+
+.stopBtn {
+  background: #ef4444;
+}
+
+.stopBtn:hover {
+  background: #dc2626;
+}
+
+.resetBtn {
+  background: #f59e0b;
+}
+
+.resetBtn:hover {
+  background: #d97706;
+} */
